@@ -74,6 +74,9 @@ section{
 #character{
     float:right;
 }
+.blank{
+    background-color: red;
+}
 /*Use this code for text margins and positioning: p { }
 p { max-width: 500px; margin: 0 auto; }*/
 
