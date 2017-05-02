@@ -62,12 +62,11 @@ span{
 body{
     background-color:#FF6347;
 }
-section{
-    background-image:"FullSizeRender.jpg";
-    background-repeat: no-repeat;
+.welcome{
+    background-image: url("Pokemon/FullSizeRender (1).jpg");
+    background-position: center center
+    
 }
-
-
 #product{
     float:left;
 }
