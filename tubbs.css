@@ -47,7 +47,7 @@ a:visited{
 }
 span{
     text-align: center;
-    color:#99ffcc
+    color:#800000
 }
 .new{
     border:2px solid #FF8C00;
@@ -64,7 +64,8 @@ body{
 }
 .welcome{
     background-image: url("Pokemon/FullSizeRender (1).jpg");
-    background-position: center center
+    background-position: center center;
+    background-repeat: no-repeat;
     
 }
 #product{
