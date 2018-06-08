@@ -1,3 +1,6 @@
+/*The overarching stylesheet for the whole website.*/
+
+/*My masterpiece: the Tubbs Force heading code.*/
 h1{
     color:#FF8C00;
     font-family:Impact, Charcoal, sans-serif;
@@ -5,26 +8,11 @@ h1{
     font-size:87px; 
     text-align:center;
 }
+/*The code for the nav.*/
 a:link{
     color:#B22222;
     text-decoration: none
 }
-div{
-    background-color:#FA8072;
-    font-family:"Arial Black", Gadget, sans-serif;
-display:inline-block}
-div{
-    background-color:#FFB6C1;
-    font-family:"Arial Black", Gadget, sans-serif;
-display:inline-block;}
-div{
-    background-color:#FFA07A;
-    font-family:"Arial Black", Gadget, sans-serif;
-display:inline-block}
-div{
-    background-color:#FF7F50;
-    font-family:"Arial Black", Gadget, sans-serif;
-display:inline-block}
 a:hover{
     text-shadow:2px 2px #483D8B;
     color:#8B0000;
@@ -32,19 +20,20 @@ a:hover{
 a:visited{
     color:#DC143C;
 }
+div{
+    background-color:#FF7F50;
+    font-family:"Arial Black", Gadget, sans-serif;
+display:inline-block
+}
 .logo{
     font-family:Modak;
 }
+/*I'm not sure how descriptive this is, or how descriptive it needs to be */
 .the{
     font-family:'Londrina Outline';
     color:#d2691e;
 }
-.info{
-    background-image:none;
-    background-color: #FF8C00;
-    color:#FF4500;
-    font-size:26px;
-}
+
 span{
     text-align: center;
     color:#800000
@@ -59,14 +48,13 @@ span{
     font-family:"Verdana", sans-serif;
     display:inline-block;
 }
-body{
-    background-color:#FF6347;
-}
-.welcome{
-    background-image: url("Pokemon/FullSizeRender (1).jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
-    
+/*This is the code for the links. Not the nav, the other links.
+Not the Nintendo kind either.*/
+.info{
+    background-image:none;
+    background-color: #FF8C00;
+    color:#FF4500;
+    font-size:26px;
 }
 #product{
     float:left;
@@ -74,8 +62,20 @@ body{
 #character{
     float:right;
 }
+#other{
+    clear: both;
+}
 .blank{
     background-color: red;
+}
+body{
+    background-color:#FF6347;
+}
+.welcome{
+    background-image: url("Pokemon/tubbs.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    
 }
 /*Use this code for text margins and positioning: p { }
 p { max-width: 500px; margin: 0 auto; }*/
