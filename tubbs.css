@@ -20,24 +20,16 @@ a:hover{
 a:visited{
     color:#DC143C;
 }
-div{
+.header, div{
     background-color:#FF7F50;
     font-family:"Arial Black", Gadget, sans-serif;
-display:inline-block
+    display:inline;
+    list-style-type: none;
 }
 .logo{
     font-family:Modak;
 }
-/*I'm not sure how descriptive this is, or how descriptive it needs to be */
-.the{
-    font-family:'Londrina Outline';
-    color:#d2691e;
-}
 
-span{
-    text-align: center;
-    color:#800000
-}
 .new{
     border:2px solid #FF8C00;
     text-align:center;
@@ -51,10 +43,15 @@ span{
 /*This is the code for the links. Not the nav, the other links.
 Not the Nintendo kind either.*/
 .info{
+    display: inline-block;
     background-image:none;
     background-color: #FF8C00;
     color:#FF4500;
     font-size:26px;
+    border-radius: 6px;
+    margin-right: 6px;
+    margin-left: 6px;
+    float: left;
 }
 #product{
     float:left;
