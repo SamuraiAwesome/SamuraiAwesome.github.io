@@ -12,4 +12,10 @@ img{
 p{
     color:#ffa500;
 }
+/* =============
+    Gradient fix
+    ============ */
+body{
+    background-color: #FF6347;
+}
 

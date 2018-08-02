@@ -1,4 +1,11 @@
+/*Really need to change title to tubbsorigin with the change being an added i.*/
 h2{
     font-family:Impact;
     color:black;
+}
+/* =============
+    Gradient fix
+    ============ */
+body{
+    background-color: #FF6347;
 }

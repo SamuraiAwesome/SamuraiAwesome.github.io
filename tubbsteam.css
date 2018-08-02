@@ -13,6 +13,12 @@ h1{
 #team{
     font-family: 'Oswald', sans-serif;
 }
+/* =============
+    Gradient fix
+    ============ */
+body{
+    background-color: #FF6347;
+}
 
     
 
