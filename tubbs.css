@@ -53,6 +53,8 @@ a:visited{
 .group{
     clear: both;
     *zoom: 1;
+    display: flex;
+    background-color: rgba(0,0,0,0);
 }
 /*This is the code for the links. Not the nav, the other links.
 Not the Nintendo kind either.*/
@@ -64,8 +66,7 @@ Not the Nintendo kind either.*/
     font-size:26px;
     padding-bottom: 0;
     border-radius: 6px;
-    margin-right: 6px;
-    margin-left: 6px;
+    margin:auto;
     box-sizing: border-box;
     -ms-box-sizing: border-box;
     float: left;
